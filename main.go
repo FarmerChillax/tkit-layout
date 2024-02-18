@@ -28,7 +28,7 @@ func main() {
 		RegisterHttpRoute: startup.Register,
 	})
 	if err != nil {
-		log.Fatalln("app.New err: ", err)
+		log.Fatalln("builder.ListenGinServer err: ", err)
 	}
 
 }
